@@ -1,28 +1,2 @@
 # dm-test
-
-## Description
-*
-
-## Run
-```
-dmt [yml]
-dm-test [yml]
-```
-
-## Install
-
-```
-npm install dm-test -g
-```
-
-## Tasks
-
-## Config
-* you can place a .dm-test.json file in your home directory (~/.dm-test.json)
-* the following things are allowed at the moment
-```javascript
-{
-}
-```
-
-## Lessons Learned
+A module for sole test purposes. It has nothing to do with real testing. Dont download and waste your time. It's only for testing the [dm-npm](https://www.npmjs.com/package/dm-npm) dm-npm module and it's functionalities.
