@@ -1,43 +1,45 @@
 {
-    "private": false,
-    "name": "dm-test",
-    "shortcut": "dmte",
-    "version": "0.0.1-2",
-    "description": "",
-    "main": "index.js",
-    "scripts": {
-        "test": "mocha --harmony --require co-mocha --watch --reporter landing",
-        "start": "node --harmony ./bin/dm-test"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/divramod/dm-test.git"
-    },
-    "keywords": [
-        "npm",
-        "template"
-    ],
-    "author": "AUTHOR",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/divramod/dm-test/issues"
-    },
-    "homepage": "https://github.com/divramod/dm-test",
-    "devDependencies": {
-        "chai": "^2.1.0",
-        "co-mocha": "^1.1.0",
-        "mocha": "^2.1.0"
-    },
-    "dependencies": {
-        "co": "^4.4.0",
-        "colors": "^1.1.2",
-        "dm-npm": "^0.1.14",
-        "shelljs": "^0.5.3"
-    },
-    "bin": {
-        "dmte": "./bin/dm-test",
-        "dm-test": "./bin/dm-test",
-        "gdmte": "./bin/gdm-test",
-        "dmteg": "./bin/gdm-test"
-    }
+  "private": false,
+  "name": "dm-test",
+  "shortcut": "dmte",
+  "version": "0.0.1-2",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --harmony --require co-mocha --watch --reporter landing",
+    "start": "node --harmony ./bin/dm-test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/divramod/dm-test.git"
+  },
+  "keywords": [
+    "npm",
+    "template"
+  ],
+  "author": "AUTHOR",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/divramod/dm-test/issues"
+  },
+  "homepage": "https://github.com/divramod/dm-test",
+  "devDependencies": {
+    "chai": "^2.1.0",
+    "co-mocha": "^1.1.0",
+    "mocha": "^2.1.0"
+  },
+  "dependencies": {
+    "co": "^4.4.0",
+    "co-child-process": "0.0.3",
+    "colors": "^1.1.2",
+    "dm-npm": "^0.1.14",
+    "promise": "^7.0.4",
+    "shelljs": "^0.5.3"
+  },
+  "bin": {
+    "dmte": "./bin/dm-test",
+    "dm-test": "./bin/dm-test",
+    "gdmte": "./bin/gdm-test",
+    "dmteg": "./bin/gdm-test"
+  }
 }

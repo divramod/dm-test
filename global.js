@@ -16,6 +16,31 @@ jobs.index = co.wrap(function*() {
 
         // automatically add tasks here
 
+        // =========== [ testAsync2 ] ===========
+        else if (['testAsync2'].indexOf(argv2) > -1) {
+            var task = require("./tasks/testAsync2/index.js");
+            task.start();
+        }
+        // =========== [ testSync2 ] ===========
+        else if (['testSync2'].indexOf(argv2) > -1) {
+            var task = require("./tasks/testSync2/index.js");
+            task.start();
+        }
+        // =========== [ testAsync ] ===========
+        else if (['testAsync'].indexOf(argv2) > -1) {
+            var task = require("./tasks/testAsync/index.js");
+            task.start();
+        }
+        // =========== [ promise ] ===========
+        else if (['promise'].indexOf(argv2) > -1) {
+            var task = require("./tasks/promise/index.js");
+            task.start();
+        }
+        // =========== [ promise ] ===========
+        else if (['promise'].indexOf(argv2) > -1) {
+            var task = require("./tasks/promise/index.js");
+            task.start();
+        }
 
         // =========== [ getCommonTasks (dm-npm) ] ===========
         else {
