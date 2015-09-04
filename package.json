@@ -2,7 +2,7 @@
   "private": false,
   "name": "dm-test",
   "shortcut": "dmte",
-  "version": "0.0.1-2",
+  "version": "0.1.1",
   "description": "",
   "main": "index.js",
   "scripts": {
