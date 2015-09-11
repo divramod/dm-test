@@ -32,6 +32,7 @@
     "co": "^4.4.0",
     "co-child-process": "0.0.3",
     "colors": "^1.1.2",
+    "commander": "^2.8.1",
     "dm-npm": "^0.1.14",
     "promise": "^7.0.4",
     "shelljs": "^0.5.3"
