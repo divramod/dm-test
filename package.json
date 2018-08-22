@@ -1,0 +1,19 @@
+{
+  "name": "dm-test",
+  "version": "0.2.0",
+  "description": "test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/divramod/dm-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/divramod/dm-test/issues"
+  },
+  "homepage": "https://github.com/divramod/dm-test#readme"
+}
